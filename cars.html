@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Автопарк — Wealth Auto</title>
+<meta name="description" content="Автопарк Wealth Auto: бизнес-класс, внедорожники и минивэны для трансферов по Кыргызстану.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="cars">
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <span class="logo-mark">WEALTH <span>AUTO</span></span>
+      <span class="logo-sub" data-i18n="header.tagline">Premium Transfer Service</span>
+    </a>
+    <nav class="main-nav" aria-label="Основная навигация">
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">Главная</a></li>
+        <li><a href="services.html" data-i18n="nav.services">Услуги</a></li>
+        <li><a href="cars.html" class="active" data-i18n="nav.cars">Авто</a></li>
+        <li><a href="about.html" data-i18n="nav.about">О компании</a></li>
+        <li><a href="prices.html" data-i18n="nav.prices">Цены</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-switch" role="group" aria-label="Language switch">
+        <button type="button" data-lang="ru">RU</button>
+        <button type="button" data-lang="en">EN</button>
+        <button type="button" data-lang="ky">KG</button>
+      </div>
+      <div class="icon-links">
+        <a class="icon-link" href="https://www.instagram.com/wealth_auto.kg/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+        </a>
+        <a class="icon-link" href="https://api.whatsapp.com/send/?phone=%2B996221108000&text&type=phone_number&app_absent=0&utm_source=ig" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 21l1.5-4.5A8 8 0 1112 20a8 8 0 01-5.5-2.2z"/><path d="M8.5 9.5c0 3.5 3 6.5 6.5 6.5"/></svg>
+        </a>
+      </div>
+      <button class="nav-toggle" type="button" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-panel">
+    <ul>
+      <li><a href="index.html" data-i18n="nav.home">Главная</a></li>
+      <li><a href="services.html" data-i18n="nav.services">Услуги</a></li>
+      <li><a href="cars.html" class="active" data-i18n="nav.cars">Авто</a></li>
+      <li><a href="about.html" data-i18n="nav.about">О компании</a></li>
+      <li><a href="prices.html" data-i18n="nav.prices">Цены</a></li>
+    </ul>
+    <div class="icon-links">
+      <a class="icon-link" href="https://www.instagram.com/wealth_auto.kg/" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+      </a>
+      <a class="icon-link" href="https://api.whatsapp.com/send/?phone=%2B996221108000&text&type=phone_number&app_absent=0&utm_source=ig" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 21l1.5-4.5A8 8 0 1112 20a8 8 0 01-5.5-2.2z"/><path d="M8.5 9.5c0 3.5 3 6.5 6.5 6.5"/></svg>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="page-hero-bg">
+      <img src="https://images.unsplash.com/photo-1760161339261-56487b766a17?auto=format&fit=crop&w=2000&q=80" alt="Салон премиального автомобиля с кожаными сиденьями">
+    </div>
+    <div class="container">
+      <span class="eyebrow" data-i18n="carsPage.eyebrow">Автопарк</span>
+      <h1 data-i18n="carsPage.title">Автомобили Wealth Auto</h1>
+      <p data-i18n="carsPage.lede">Три класса автомобилей для любой задачи.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid-cards cols-3" data-render="cars"></div>
+      <p class="price-note" style="margin-top:28px;" data-i18n="carsPage.note">Точная модель автомобиля подтверждается при бронировании.</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <div class="cta-band reveal">
+        <h2 style="margin-top:14px;" data-i18n="carsPage.ctaTitle">Подберём автомобиль под вашу поездку</h2>
+        <p data-i18n="carsPage.ctaText">Укажите количество пассажиров и багажа.</p>
+        <a class="btn btn-primary" href="index.html#booking" data-i18n="carsPage.ctaBtn">Подобрать автомобиль</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="logo-mark">WEALTH <span>AUTO</span></span>
+        <p data-i18n="footer.lede">Премиальные трансферы по Кыргызстану.</p>
+        <div class="footer-social">
+          <a class="icon-link" href="https://www.instagram.com/wealth_auto.kg/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+          </a>
+          <a class="icon-link" href="https://api.whatsapp.com/send/?phone=%2B996221108000&text&type=phone_number&app_absent=0&utm_source=ig" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 21l1.5-4.5A8 8 0 1112 20a8 8 0 01-5.5-2.2z"/><path d="M8.5 9.5c0 3.5 3 6.5 6.5 6.5"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.navTitle">Навигация</h4>
+        <ul>
+          <li><a href="index.html" data-i18n="nav.home">Главная</a></li>
+          <li><a href="services.html" data-i18n="nav.services">Услуги</a></li>
+          <li><a href="cars.html" data-i18n="nav.cars">Авто</a></li>
+          <li><a href="about.html" data-i18n="nav.about">О компании</a></li>
+          <li><a href="prices.html" data-i18n="nav.prices">Цены</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.contactTitle">Контакты</h4>
+        <ul>
+          <li><span>+996 221 108 000</span></li>
+          <li><span>@wealth_auto.kg</span></li>
+          <li><span data-i18n="form.hoursValue">Круглосуточно</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> Wealth Auto. <span data-i18n="footer.rights">Все права защищены.</span></span>
+      <span data-i18n="footer.credit">Частная транспортная компания, Кыргызстан</span>
+    </div>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
